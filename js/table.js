@@ -60,4 +60,7 @@ $.ajax({
     	alert("WAIT");
     }
 });
+$("#home").click(function(){
+     window.location.replace("/index.html");
+});
 });
